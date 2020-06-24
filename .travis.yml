@@ -12,7 +12,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-west-2"
   app: "docker-create"
-  env: "DockerCreate-env-2"
+  env: "DockerCreate-env-"
   bucket_name: "elasticbeanstalk-us-west-2-595101688237"
   bucket_path: "docker-create"
   on:
